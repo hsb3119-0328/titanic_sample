@@ -12,7 +12,7 @@ This code removes duplicate rows from the Pandas DataFrame and specifies that th
  When look at the bar chart we can see the survival rates generally decrease with age, with children having the highest survival rate and seniors having the lowest. However, there is a slight increase in survival rate for young adults compared to teenagers  
  Move to linechart revealed that if the data for certain age groups is limited, the survival rate estimates might be less reliable and subject to greater variability
 ![](images/linearcode.PNG) ![](images/linear.PNG)  
-The plot suggests that passenger class is the most important factor influencing survival, with passengers in higher classes having a better chance of survival. The number of siblings or spouses and the number of parents or children do not appear to have a strong relationship with survival
+The plot suggests that passenger class is the most important factor influencing survival, with passengers in higher classes having a better chance of survival. The number of siblings or spouses and the number of parents or children do not appear to have a strong relationship with survival  
 ![](images/coefandintercept.PNG)
 The coefficient for Parch is positive in both models, indicating that having more parents or children on board is associated with a higher probability of survival.   
 The intercept term is significant in the first model but not in the second model. This suggests that there is a baseline survival probability even when Parch is 0.  
