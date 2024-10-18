@@ -5,4 +5,5 @@ All the information of data included in kaggle.com
 Firstly, we describe data that provides summary statistics for all columns in the DataFrame
 ![](images/info.PNG)
 Next, we define info data in order to show the structure and content of the data before further analysis.
-![](
+![](images/drop duplicate.PNG)
+
