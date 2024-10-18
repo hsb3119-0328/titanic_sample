@@ -1,5 +1,6 @@
-# titanic_report
+# titanic_report ![](images/header.png)
 In our report, group 11 will summarize data and use machine learning to create a model that predicts which passengers survived the Titanic shipwreck by using data of train set and gender submisson
 All the information of data included in kaggle.com
 ![](images/describe.PNG)
 Firstly, we describe data that provides summary statistics for all columns in the DataFrame
+![](
