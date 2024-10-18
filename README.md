@@ -6,4 +6,4 @@ Firstly, we describe data that provides summary statistics for all columns in th
 ![](images/info.PNG)
 Next, we define info data in order to show the structure and content of the data before further analysis.
 ![](images/dropduplicate.PNG)
-
+This code removes duplicate rows from the Pandas DataFrame and specifies that the changes should be made directly to the existing DataFrame by inplace
