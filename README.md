@@ -1,4 +1,10 @@
 # TITANIC_Report ![](images/header.png)
+Group 11 Member:  
+Dang Nhat Minh - 22080328  
+Ha Minh Tam -  22080342  
+Dang Thi Hoang Yen- 22080347  
+Truong Si Duy Anh - 22080300    
+Vu Minh -  22080330  
 ## In our report, group 11 will summarize data and use machine learning to create a model that predicts which passengers survived the Titanic shipwreck by using data of train set and gender submisson
 All the information of data included in kaggle.com
 ![](images/describe.PNG)
