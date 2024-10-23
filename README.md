@@ -1,4 +1,8 @@
 # TITANIC_Report ![](images/header.png)
+- **Subject:HSB3119-Introduction to Data Science**
+- **Class:MAS02**
+- **Lecturer:Dr. Emmanuel Lance Christopher VI M. Plan**
+- **Group:11**
 Group 11 Member:  
 Dang Nhat Minh - 22080328  
 Ha Minh Tam -  22080342  
@@ -6,13 +10,22 @@ Dang Thi Hoang Yen- 22080347
 Truong Si Duy Anh - 22080300    
 Vu Minh -  22080330  
 ## In our report, group 11 will summarize data and use machine learning to create a model that predicts which passengers survived the Titanic shipwreck by using data of train set and gender submisson
-All the information of data included in kaggle.com
+## I.Introduction
+All the information of data included in Titanic on kaggle.com with the topic being data related to create a model that predicts which passengers survived the Titanic shipwreck.It contains two key tables that have been merged into one comprehensive dataset for analysis:
+- **train.csv** :
+For the training set, we provide the outcome (also known as the “ground truth”) for each passenger.
+- **test.csv**:
+For the test set, we do not provide the ground truth for each passenger.
+
+## II.Data Discussion  
+This data can be instrumental for analyzing sales performance, understanding customer preferences, and making informed business decisions.
 ![](images/describe.PNG)
 Firstly, we describe data that provides summary statistics for all columns in the DataFrame
-![](images/info.PNG)  
+![](images/info.PNG) 
 Next, we define info data in order to show the structure and content of the data before further analysis.
 ![](images/dropduplicate.PNG)
-This code removes duplicate rows from the Pandas DataFrame and specifies that the changes should be made directly to the existing DataFrame by inplace
+This code removes duplicate rows from the Pandas DataFrame and specifies that the changes should be made directly to the existing DataFrame by inplace  
+## III.Chart Explanations  
 ![](images/barchart.PNG) ![](images/linechart.PNG)  
  In these chart we split 2 main index are age and survived to analyzes the survival rate by age group and age, and creates bar and line plots to visualize the results  
  When look at the bar chart we can see the survival rates generally decrease with age, with children having the highest survival rate and seniors having the lowest. However, there is a slight increase in survival rate for young adults compared to teenagers   
