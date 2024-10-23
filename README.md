@@ -65,7 +65,7 @@ Overall, the code demonstrates how to perform linear regression analysis in Pyth
 
 ## IV.Conclusion  
 The Titanic dataset provides valuable insights into the factors influencing survival in a disaster. By understanding these factors and leveraging machine learning techniques, we can develop models that can potentially aid in rescue efforts and improve outcomes in future disasters.
-# Key Findings:
+### Key Findings:
 Through our analysis, we identified several significant factors that influenced survival on the Titanic:
 
 Passenger Class: First-class passengers had a higher survival rate compared to second- and third-class passengers.
