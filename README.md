@@ -41,7 +41,8 @@ This code removes duplicate rows from the Pandas DataFrame and specifies that th
  - When look at the bar chart we can see the survival rates generally decrease with age, with children having the highest survival rate and seniors having the lowest. However, there is a slight increase in survival rate for young adults compared to teenagers   
  - We can see that the survival rate is highest for children, followed by teenagers, young adults, middle-aged adults, and seniors. The survival rate for children is about 0.6, while the survival rate for seniors is about 0.3. This suggests that children are more likely to survive than adults, and that the survival rate decreases with age.
 -  Move to linechart revealed that if the data for certain age groups is limited, the survival rate estimates might be less reliable and subject to greater variability
-  
+ ## IV. Regressions :
+ 
 ![](images/linear.PNG)  
 - The plot suggests that passenger class is the most important factor influencing survival, with passengers in higher classes having a better chance of survival. The number of siblings or spouses and the number of parents or children do not appear to have a strong relationship with survival    
 - The regression shows a pair plot of the variables Pclass, SibSp, Parch, and Survived. The diagonal plots show the distribution of each variable, while the off-diagonal plots show the relationship between pairs of variables.  
@@ -64,7 +65,7 @@ This code removes duplicate rows from the Pandas DataFrame and specifies that th
 
 - Overall, the code demonstrates how to perform linear regression analysis in Python using the sklearn library.
 
-## IV.Conclusion  
+## V.Conclusion  
 The Titanic dataset provides valuable insights into the factors influencing survival in a disaster. By understanding these factors and leveraging machine learning techniques, we can develop models that can potentially aid in rescue efforts and improve outcomes in future disasters.
 ### Key Findings:
 Through our analysis, we identified several significant factors that influenced survival on the Titanic:
