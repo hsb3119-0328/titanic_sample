@@ -42,7 +42,10 @@ This code removes duplicate rows from the Pandas DataFrame and specifies that th
  - We can see that the survival rate is highest for children, followed by teenagers, young adults, middle-aged adults, and seniors. The survival rate for children is about 0.6, while the survival rate for seniors is about 0.3. This suggests that children are more likely to survive than adults, and that the survival rate decreases with age.
 -  Move to linechart revealed that if the data for certain age groups is limited, the survival rate estimates might be less reliable and subject to greater variability
  ## IV. Regressions :
- 
+![](images/regression.PNG) 
+
+
+
 ![](images/linear.PNG)  
 - The plot suggests that passenger class is the most important factor influencing survival, with passengers in higher classes having a better chance of survival. The number of siblings or spouses and the number of parents or children do not appear to have a strong relationship with survival    
 - The regression shows a pair plot of the variables Pclass, SibSp, Parch, and Survived. The diagonal plots show the distribution of each variable, while the off-diagonal plots show the relationship between pairs of variables.  
