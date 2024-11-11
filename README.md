@@ -7,8 +7,11 @@ Dang Nhat Minh - 22080328
 Ha Minh Tam -  22080342  
 Dang Thi Hoang Yen- 22080347  
 Truong Si Duy Anh - 22080300    
-Vu Minh -  22080330  
-## In our report, group 11 will summarize data and use machine learning to create a model that predicts which passengers survived the Titanic shipwreck by using data of train set and gender submisson
+Vu Minh -  22080330
+
+ `Sumary`
+ This report aims to develop and compare two machine learning models - K-Nearest Neighbors and Regression - for predicting passenger survival on the Titanic. The models will utilize features such as Gender, Age, and Passenger Class to make predictions. The performance of both models will be evaluated and compared to a baseline model to determine their predictive accuracy.
+ 
 ## I.Introduction
   
 All the information of data included in Titanic on kaggle.com with the topic being data related to create a model that predicts which passengers survived the Titanic shipwreck.  
