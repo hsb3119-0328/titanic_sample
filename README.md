@@ -46,7 +46,8 @@ For the test set, we do not provide the ground truth for each passenger.
   
 ## III.Models Resulting :
 `Regression`
-![](images/residuals.PNG)  
+
+ ![](images/residuals.PNG)  
 -By using histogram, residuals represent the difference between the actual values (y_test) and the predicted values (y_pred) for each data point.
 
 
