@@ -60,7 +60,7 @@ For the test set, we do not provide the ground truth for each passenger.
   
  
 ![](images/countplot.PNG)
-![](images/cabin.PNG)
+![](images/roccurve.PNG)
 
 ![](images/snsplot.PNG) 
  
