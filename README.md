@@ -4,10 +4,10 @@
 - **Lecturer:Dr. Emmanuel Lance Christopher VI M. Plan**
 - **Group 11 Report:⛴️ Titanic Shipwreck Incident**      
 # `Sumary`
- This report aims to develop and compare two machine learning models - K-Nearest Neighbors and Regression - for predicting passenger survival on the Titanic. The models will utilize features such as Gender, Age, and Passenger Class to make predictions. The performance of both models will be evaluated and compared to a baseline model to determine their predictive accuracy.
+ This report aims to develop and compare two machine learning models - K-Nearest Neighbors and Logistic Regression - for predicting passenger survival on the Titanic. The models will utilize features such as Gender, Age, and Passenger Class to make predictions. The performance of both models will be evaluated and compared to a baseline model to determine their predictive accuracy.
  
 ## I.Introduction
-- The tragic sinking of the Titanic in 1912, resulting in the loss of over 1500 lives, serves as a poignant reminder of the dangers of maritime travel. In the aftermath of this disaster, international regulations were implemented to improve ship safety. This report delves into the factors that may have influenced passenger survival on the Titanic. By employing machine learning techniques, specifically K-Nearest Neighbors and Regression, we will analyze a dataset containing information about the passengers and crew. Through this analysis, we aim to uncover patterns and trends that may shed light on the determinants of survival and potentially inform future disaster response strategies.
+- The tragic sinking of the Titanic in 1912, resulting in the loss of over 1500 lives, serves as a poignant reminder of the dangers of maritime travel. In the aftermath of this disaster, international regulations were implemented to improve ship safety. This report delves into the factors that may have influenced passenger survival on the Titanic. By employing machine learning techniques, specifically K-Nearest Neighbors and LOgistic Regression, we will analyze a dataset containing information about the passengers and crew. Through this analysis, we aim to uncover patterns and trends that may shed light on the determinants of survival and potentially inform future disaster response strategies.
   
 It contains two key tables that have been merged into one comprehensive dataset for analysis:
 - **train.csv** :
@@ -39,22 +39,22 @@ For the test set, we do not provide the ground truth for each passenger.
 - This histogram provides a visual representation of the age distribution of the passengers on the Titanic, highlighting the prevalence of younger passengers and the presence of a few older individuals.
 
   ### Models Listing :
-  For this project, two models Regression model and K nearest neighbor were selected
+  For this project, two models Logistic Regression model and K nearest neighbor were selected
   Before using this model, we need to visualize the model through pair plot
   
   ![](images/regression.PNG) 
   
 ## III.Models Resulting :
-`Regression`
+`Logistic Regression`
 
- ![](images/residuals.PNG)  
--By using histogram, residuals represent the difference between the actual values (y_test) and the predicted values (y_pred) for each data point.
+ ![](images/lorecfsmatrx.PNG)  
+The model appears to have a reasonable level of accuracy, with 78 true positives and 41 true negatives. However, there are 17 false positives and 7 false negatives
 
 
-![](images/heatmap.PNG) 
+![](images/barchart.PNG) 
 - A correlation heatmap is a visual representation of the correlation coefficients between different numerical variables in a dataset. The correlation coefficient measures the strength and direction of the linear relationship between two variables. It ranges from -1 to 1
 
-![](images/cofsmtrix.PNG)  
+![](images/lorecurve.PNG)  
 -  To improve the model's performance, it might be necessary to address the issues with class 1 classification
 
   `KNN`
