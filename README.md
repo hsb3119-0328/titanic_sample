@@ -74,3 +74,14 @@ For the test set, we do not provide the ground truth for each passenger.
 - To improve model accuracy, addressing the significant amount of missing data (approximately 20%) is crucial. This issue could potentially explain the low coefficient for Age. Additionally, the limited number of relevant features in the dataset may contribute to underfitting, hindering the model's ability to capture complex patterns.
 Age: Children had a higher survival rate than adults, likely due to the same prioritization.
 Fare: Higher fares were associated with a higher survival rate, suggesting that first-class passengers had access to better accommodations and resources.
+
+## VI.References
+                                                                    TEAM EVALUATION
+                                                                    
+| Student Number | Student Name        | Task Done                                                                                                                                                          | Remarks by Leader (if any)          | Student Evaluation |
+|----------------|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|---------------------|
+| 22080337       | Đặng Nhật Minh     | Do 2 chart Machine Learning, writing report, supervised other tasks and comment to chart "Machine Learning"                                                                     |                                     | 100%               |
+| 22080331       | Đặng Thị Hoàng Yến      | Do distribution 1 Machine Learning, slide |      | 90%               |
+| 22080324       | Hà Minh Tâm     | KNN model and writing report                                                                                              |                                     | 100%                |
+| 22080294       | Vũ Minh         | Cleaning data                                                                                             |                                     | 90%                |
+| 22080304       | Trương Sĩ Duy Anh      | 2 charts for visualizing data                                                                                                |                                     | 90%                |
