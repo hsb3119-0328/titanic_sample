@@ -48,14 +48,14 @@ For the test set, we do not provide the ground truth for each passenger.
 `Logistic Regression`
 
  ![](images/lorecfsmatrx.PNG)  
-The model appears to have a reasonable level of accuracy, with 78 true positives and 41 true negatives. However, there are 17 false positives and 7 false negatives
+- Both false positive and false negative predictions can have significant consequences. A false positive, where a person is predicted to be alive but is actually deceased, can lead to unnecessary expenditure on rescue efforts.
 
 
 ![](images/barchart.PNG) 
-- A correlation heatmap is a visual representation of the correlation coefficients between different numerical variables in a dataset. The correlation coefficient measures the strength and direction of the linear relationship between two variables. It ranges from -1 to 1
+- Look over the chart we can see that female have higher percentage of alive than men, the death number in men are almost 400
 
 ![](images/lorecurve.PNG)  
--  To improve the model's performance, it might be necessary to address the issues with class 1 classification
+-  The AUC score of 0.88 indicates that the model has a good ability to distinguish between positive and negative classes. A higher AUC value signifies better performance.
 
   `KNN`
   
